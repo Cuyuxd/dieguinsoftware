@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>Diego Software</title>
-        <!-- Favicon: muestra el logo en la pestaña del navegador -->
-        <link rel="icon" href="images/Logo.png" type="image/png" />
-        <link rel="shortcut icon" href="images/Logo.png" type="image/png" />
+    <!-- Favicon: muestra el logo en la pestaña del navegador. Se añade ?v=2 para evitar caché del navegador -->
+    <link rel="icon" href="images/Logo.png?v=2" type="image/png" />
+    <link rel="shortcut icon" href="images/Logo.png?v=2" type="image/png" />
+    <!-- Fallback para iOS y dispositivos que usan apple-touch-icon -->
+    <link rel="apple-touch-icon" href="images/Logo.png?v=2" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
